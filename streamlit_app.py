@@ -92,3 +92,5 @@ if prompt := st.chat_input("Bạn nhập nội dung cần trao đổi ở đây 
 
     # Cập nhật lịch sử tin nhắn trong session
     st.session_state.messages.append({"role": "assistant", "content": response})
+
+    # Xin chào, Tôi test
